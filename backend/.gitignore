@@ -1,0 +1,10 @@
+.env
+
+*.log
+
+node_modules/
+src/config/*.json
+
+
+src/config/my-spotify-clone-15856-firebase-adminsdk-1yi46-8acd8887fd.json
+
