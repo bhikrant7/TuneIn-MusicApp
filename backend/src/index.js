@@ -79,6 +79,10 @@ if (process.env.NODE_ENV === "production") {
 //global error handler
 app.use(errorHandler); //a common error handler that handles all the errors of the server 
 
+// error handler
+app.use((err, req, res, next) => {
+	res.status(500).json({ message: process.env.NODE_ENV === "production" ? "Internal server error" : err.message });
+});
 
 //Change 1:SocketIO
 httpServer.listen(PORT, () => {console.log(`Server is running on port ${PORT}`)

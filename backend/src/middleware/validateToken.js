@@ -7,7 +7,7 @@ async function authenticateToken(req, res, next) {
     if (!token) {
         return res.status(401).json({ message: 'No token provided' });
     }
- // console.log("Validate token checks and find token",token) //debug
+//console.log("Validate token checks and find token",token) //debug
 
     try {
         const decodedToken = await admin.auth().verifyIdToken(token); //decoded token will hold user info obtained from firebase token
