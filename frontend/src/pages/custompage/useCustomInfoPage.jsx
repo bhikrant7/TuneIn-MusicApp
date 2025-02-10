@@ -216,7 +216,7 @@ const useCustomInfoPage = () => {
 
                         {/* No of plays if trending page*/}
                         {infoPage ==="trendingplays" && <div className="flex items-center">
-                          {songData?.playCount}
+                          {songData?.weeklyPlays}
                         </div>}
 
                         {/* Song duration */}
