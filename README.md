@@ -56,6 +56,6 @@ TuneIn is a full-stack music streaming web application that offers real-time cha
 
 ### **Cloud Storage & Hosting**
 - Cloudinary (SaaS) for song storage
-- Deployed on [your hosting platform, e.g., Vercel/Heroku/AWS]
+- Deployed on Render
 
 ---
