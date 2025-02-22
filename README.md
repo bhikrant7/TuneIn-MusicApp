@@ -53,7 +53,6 @@ TuneIn is a full-stack music streaming web application that offers real-time cha
 ### **Authentication**
 - Firebase Authentication
 - Google OAuth
-- JWT & Cookies for secure sessions
 
 ### **Cloud Storage & Hosting**
 - Cloudinary (SaaS) for song storage
