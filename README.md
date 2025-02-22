@@ -24,7 +24,6 @@ TuneIn is a full-stack music streaming web application that offers real-time cha
 ### 🔐 **Authentication & Security**
 - **Google OAuth & Firebase authentication** for secure sign-in.
 - User login, signup, and password reset functionality.
-- Secure session management using **JWT & Cookies**.
 
 ### 📊 **User & Admin Dashboard**
 - **User Dashboard:** Displays **daily plays, top songs, and favorite artists** with graphical insights.
