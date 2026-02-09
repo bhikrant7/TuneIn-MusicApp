@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { fetchUsers } from "@/store/Slices/useChatSlice";
 import { useAuth } from "@/context/authContext";
 import { HeadphonesIcon, Music, Users,StarIcon } from "lucide-react";
-import { ScrollArea } from "@radix-ui/react-scroll-area";
+import { ScrollArea } from "@/components/ui/scroll-area";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const FriendsActivity = () => {
